@@ -656,6 +656,13 @@ body {
 }
 .slider__item-avatar {
   object-fit: cover;
+  height: 100%;
+}
+@media (max-width: 1024px) {
+  .slider__item-avatar {
+    height: auto;
+    width: 100%;
+  }
 }
 @media (max-width: 1024px) {
   .slider__item {

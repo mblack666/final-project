@@ -128,7 +128,24 @@
 				<div class="container">
 					<div class="slider">
 						<div class="slider__item">
-							<img class="slider__item-avatar" src="./images/slider_avatar.png" alt="">
+							<picture>
+								<source media="(max-width: 767px)" srcset="./images/avatar/avatar-mobile.avif 1x, ./images/avatar/avatar-mobile@2x.avif 2x, ./images/avatar/avatar-mobile@3x.avif 3x" type="image/avif">
+								<source media="(max-width: 767px)" srcset="./images/avatar/avatar-mobile.webp 1x, ./images/avatar/avatar-mobile@2x.webp 2x, ./images/avatar/avatar-mobile@3x.webp 3x" type="image/webp">
+								<source media="(max-width: 767px)" srcset="./images/avatar/avatar-mobile.jpg 1x, ./images/avatar/avatar-mobile@2x.jpeg 2x, ./images/avatar/avatar-mobile@3x.avif 3x" type="image/jpeg">
+								<source media="(max-width: 1023px)" srcset="./images/avatar/avatar-tablet-sd.avif" type="image/avif">
+								<source media="(max-width: 1023px)" srcset="./images/avatar/avatar-tablet-sd.webp" type="image/webp">
+								<source media="(max-width: 1023px)" srcset="./images/avatar/avatar-tablet-sd.jpg" type="image/jpeg">
+								<source media="(max-width: 1439px)" srcset="./images/avatar/avatar-tablet.avif 1x, ./images/avatar/avatar-tablet@2x.avif 2x, ./images/avatar/avatar-tablet@3x.avif 3x" type="image/avif">
+								<source media="(max-width: 1439px)" srcset="./images/avatar/avatar-tablet.webp 1x, ./images/avatar/avatar-tablet@2x.webp 2x, ./images/avatar/avatar-tablet@3x.webp 3x" type="image/webp">
+								<source media="(max-width: 1439px)" srcset="./images/avatar/avatar-tablet.jpg 1x, ./images/avatar/avatar-tablet@2x.jpeg 2x, ./images/avatar/avatar-tablet@3x.avif 3x" type="image/jpeg">
+								<source media="(max-width: 1599px)" srcset="./images/avatar/avatar-desktop.avif 1x, ./images/avatar/avatar-desktop@2x.avif 2x, ./images/avatar/avatar-desktop@3x.avif 3x" type="image/avif">
+								<source media="(max-width: 1599px)" srcset="./images/avatar/avatar-desktop.webp 1x, ./images/avatar/avatar-desktop@2x.webp 2x, ./images/avatar/avatar-desktop@3x.webp 3x" type="image/webp">
+								<source media="(max-width: 1599px)" srcset="./images/avatar/avatar-desktop.jpg 1x, ./images/avatar/avatar-desktop@2x.jpeg 2x, ./images/avatar/avatar-desktop@3x.avif 3x" type="image/jpeg">
+								<source media="(min-width: 1600px)" srcset="./images/avatar/avatar.avif 1x, ./images/avatar/avatar@2x.avif 2x, ./images/avatar/avatar@3x.avif 3x" type="image/avif">
+								<source media="(min-width: 1600px)" srcset="./images/avatar/avatar.webp 1x, ./images/avatar/avatar@2x.webp 2x, ./images/avatar/avatar@3x.webp 3x" type="image/webp">
+								<source media="(min-width: 1600px)" srcset="./images/avatar/avatar.jpg 1x, ./images/avatar/avatar@2x.jpeg 2x, ./images/avatar/avatar@3x.avif 3x" type="image/jpeg">
+								<img class="slider__item-avatar" src="./images/avatar/avatar.jpg" alt="avatar">
+							</picture>
 							<div class="slider__item-info">
 								<a class="slider__item-info-team" href="#">команда</a>
 								<p class="slider__item-info-text">Ми звикли брати на себе відповідальність та завжди гарантуємо чесну, вчасну допомогу, навіть у ситуаціях, коли більшість безсилі.</p>
@@ -188,32 +205,83 @@
 			<div class="second-bg">
 				<div class="container">
 					<div class="publications">
-						<h3 class="publications__title">Publications</h3>
+						<a class="publications__title" href="#">Publications</a>
 						<p class="publications__description">We have something to tell</p>
 						<div class="publications__items">
 							<div class="publications__item">
-								<img class="publications__item-image" src="./images/p1.png" alt="p1">
+								<picture>
+									<source media="(max-width: 767px)" srcset="./images/publications/p1-mobile.avif 1x, ./images/publications/p1-mobile@2x.avif 2x, ./images/publications/p1-mobile@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 767px)" srcset="./images/publications/p1-mobile.webp 1x, ./images/publications/p1-mobile@2x.webp 2x, ./images/publications/p1-mobile@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 767px)" srcset="./images/publications/p1-mobile.jpg 1x, ./images/publications/p1-mobile@2x.jpg 2x, ./images/publications/p1-mobile@3x.jpg 3x" type="image/jpeg">
+									<source media="(max-width: 1023px)" srcset="./images/publications/p1-tablet-sd.avif 1x, ./images/publications/p1-tablet-sd@2x.avif 2x, ./images/publications/p1-tablet-sd@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 1023px)" srcset="./images/publications/p1-tablet-sd.webp 1x, ./images/publications/p1-tablet-sd@2x.webp 2x, ./images/publications/p1-tablet-sd@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 1023px)" srcset="./images/publications/p1-tablet-sd.jpg 1x, ./images/publications/p1-tablet-sd@2x.jpg 2x, ./images/publications/p1-tablet-sd@3x.jpg 3x" type="image/jpeg">
+									<source media="(max-width: 1439px)" srcset="./images/publications/p1-tablet.avif 1x, ./images/publications/p1-tablet@2x.avif 2x, ./images/publications/p1-tablet@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 1439px)" srcset="./images/publications/p1-tablet.webp 1x, ./images/publications/p1-tablet@2x.webp 2x, ./images/publications/p1-tablet@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 1439px)" srcset="./images/publications/p1-tablet.jpg 1x, ./images/publications/p1-tablet@2x.jpg 2x, ./images/publications/p1-tablet@3x.jpg 3x" type="image/jpeg">
+									<source media="(max-width: 1599px)" srcset="./images/publications/p1-desktop.avif 1x, ./images/publications/p1-desktop@2x.avif 2x, ./images/publications/p1-desktop@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 1599px)" srcset="./images/publications/p1-desktop.webp 1x, ./images/publications/p1-desktop@2x.webp 2x, ./images/publications/p1-desktop@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 1599px)" srcset="./images/publications/p1-desktop.jpg 1x, ./images/publications/p1-desktop@2x.jpg 2x, ./images/publications/p1-desktop@3x.jpg 3x" type="image/jpeg">
+									<source media="(min-width: 1600px)" srcset="./images/publications/p1.avif 1x, ./images/publications/p1@2x.avif 2x, ./images/publications/p1@3x.avif 3x" type="image/avif">
+									<source media="(min-width: 1600px)" srcset="./images/publications/p1.webp 1x, ./images/publications/p1@2x.webp 2x, ./images/publications/p1@3x.webp 3x" type="image/webp">
+									<source media="(min-width: 1600px)" srcset="./images/publications/p1.jpg 1x, ./images/publications/p1@2x.jpg 2x, ./images/publications/p1@3x.jpg 3x" type="image/jpeg">
+									<img class="publications__item-image" src="./images/publications/p1.jpg" alt="p1">
+								</picture>
 								<div class="publications__item-block">
 									<a class="publications__item-title" href="#">Equity associate</a>
-									<p class="publications__item-date">April 22</p>
+									<time class="publications__item-date" datetime="2024-04-22T00:00">April 22</time>
 									<span class="publications__item-line"></span>
 									<p class="publications__item-text">I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my parents told me that if I…</p>
 								</div>
 							</div>
 							<div class="publications__item">
-								<img class="publications__item-image" src="./images/p2.png" alt="p2">
+								<picture>
+									<source media="(max-width: 767px)" srcset="./images/publications/p2-mobile.avif 1x, ./images/publications/p2-mobile@2x.avif 2x, ./images/publications/p2-mobile@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 767px)" srcset="./images/publications/p2-mobile.webp 1x, ./images/publications/p2-mobile@2x.webp 2x, ./images/publications/p2-mobile@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 767px)" srcset="./images/publications/p2-mobile.jpg 1x, ./images/publications/p2-mobile@2x.jpg 2x, ./images/publications/p2-mobile@3x.jpg 3x" type="image/jpeg">
+									<source media="(max-width: 1023px)" srcset="./images/publications/p2-tablet-sd.avif 1x, ./images/publications/p2-tablet-sd@2x.avif 2x, ./images/publications/p2-tablet-sd@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 1023px)" srcset="./images/publications/p2-tablet-sd.webp 1x, ./images/publications/p2-tablet-sd@2x.webp 2x, ./images/publications/p2-tablet-sd@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 1023px)" srcset="./images/publications/p2-tablet-sd.jpg 1x, ./images/publications/p2-tablet-sd@2x.jpg 2x, ./images/publications/p2-tablet-sd@3x.jpg 3x" type="image/jpeg">
+									<source media="(max-width: 1439px)" srcset="./images/publications/p2-tablet.avif 1x, ./images/publications/p2-tablet@2x.avif 2x, ./images/publications/p2-tablet@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 1439px)" srcset="./images/publications/p2-tablet.webp 1x, ./images/publications/p2-tablet@2x.webp 2x, ./images/publications/p2-tablet@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 1439px)" srcset="./images/publications/p2-tablet.jpg 1x, ./images/publications/p2-tablet@2x.jpg 2x, ./images/publications/p2-tablet@3x.jpg 3x" type="image/jpeg">
+									<source media="(max-width: 1599px)" srcset="./images/publications/p2-desktop.avif 1x, ./images/publications/p2-desktop@2x.avif 2x, ./images/publications/p2-desktop@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 1599px)" srcset="./images/publications/p2-desktop.webp 1x, ./images/publications/p2-desktop@2x.webp 2x, ./images/publications/p2-desktop@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 1599px)" srcset="./images/publications/p2-desktop.jpg 1x, ./images/publications/p2-desktop@2x.jpg 2x, ./images/publications/p2-desktop@3x.jpg 3x" type="image/jpeg">
+									<source media="(min-width: 1600px)" srcset="./images/publications/p2.avif 1x, ./images/publications/p2@2x.avif 2x, ./images/publications/p2@3x.avif 3x" type="image/avif">
+									<source media="(min-width: 1600px)" srcset="./images/publications/p2.webp 1x, ./images/publications/p2@2x.webp 2x, ./images/publications/p2@3x.webp 3x" type="image/webp">
+									<source media="(min-width: 1600px)" srcset="./images/publications/p2.jpg 1x, ./images/publications/p2@2x.jpg 2x, ./images/publications/p2@3x.jpg 3x" type="image/jpeg">
+									<img class="publications__item-image" src="./images/publications/p2.jpg" alt="p2">
+								</picture>
 								<div class="publications__item-block">
 									<a class="publications__item-title" href="#">Penalty for the Good Corporation: what will happen to Google and others for violating the GDPR</a>
-									<p class="publications__item-date">September 29</p>
+									<time class="publications__item-date" datetime="2024-09-29T00:00">September 29</time>
 									<span class="publications__item-line"></span>
 									<p class="publications__item-text">And why the recovery of 50 million euros could be a fateful precedent According to Mind.ua January 21 National Commission for Data Protection.</p>
 								</div>
 							</div>
 							<div class="publications__item">
-								<img class="publications__item-image" src="./images/p3.png" alt="p1">
+								<picture>
+									<source media="(max-width: 767px)" srcset="./images/publications/p3-mobile.avif 1x, ./images/publications/p3-mobile@2x.avif 2x, ./images/publications/p3-mobile@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 767px)" srcset="./images/publications/p3-mobile.webp 1x, ./images/publications/p3-mobile@2x.webp 2x, ./images/publications/p3-mobile@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 767px)" srcset="./images/publications/p3-mobile.jpg 1x, ./images/publications/p3-mobile@2x.jpg 2x, ./images/publications/p3-mobile@3x.jpg 3x" type="image/jpeg">
+									<source media="(max-width: 1023px)" srcset="./images/publications/p3-tablet-sd.avif 1x, ./images/publications/p3-tablet-sd@2x.avif 2x, ./images/publications/p3-tablet-sd@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 1023px)" srcset="./images/publications/p3-tablet-sd.webp 1x, ./images/publications/p3-tablet-sd@2x.webp 2x, ./images/publications/p3-tablet-sd@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 1023px)" srcset="./images/publications/p3-tablet-sd.jpg 1x, ./images/publications/p3-tablet-sd@2x.jpg 2x, ./images/publications/p3-tablet-sd@3x.jpg 3x" type="image/jpeg">
+									<source media="(max-width: 1439px)" srcset="./images/publications/p3-tablet.avif 1x, ./images/publications/p3-tablet@2x.avif 2x, ./images/publications/p3-tablet@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 1439px)" srcset="./images/publications/p3-tablet.webp 1x, ./images/publications/p3-tablet@2x.webp 2x, ./images/publications/p3-tablet@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 1439px)" srcset="./images/publications/p3-tablet.jpg 1x, ./images/publications/p3-tablet@2x.jpg 2x, ./images/publications/p3-tablet@3x.jpg 3x" type="image/jpeg">
+									<source media="(max-width: 1599px)" srcset="./images/publications/p3-desktop.avif 1x, ./images/publications/p3-desktop@2x.avif 2x, ./images/publications/p3-desktop@3x.avif 3x" type="image/avif">
+									<source media="(max-width: 1599px)" srcset="./images/publications/p3-desktop.webp 1x, ./images/publications/p3-desktop@2x.webp 2x, ./images/publications/p3-desktop@3x.webp 3x" type="image/webp">
+									<source media="(max-width: 1599px)" srcset="./images/publications/p3-desktop.jpg 1x, ./images/publications/p3-desktop@2x.jpg 2x, ./images/publications/p3-desktop@3x.jpg 3x" type="image/jpeg">
+									<source media="(min-width: 1600px)" srcset="./images/publications/p3.avif 1x, ./images/publications/p3@2x.avif 2x, ./images/publications/p3@3x.avif 3x" type="image/avif">
+									<source media="(min-width: 1600px)" srcset="./images/publications/p3.webp 1x, ./images/publications/p3@2x.webp 2x, ./images/publications/p3@3x.webp 3x" type="image/webp">
+									<source media="(min-width: 1600px)" srcset="./images/publications/p3.jpg 1x, ./images/publications/p3@2x.jpg 2x, ./images/publications/p3@3x.jpg 3x" type="image/jpeg">
+									<img class="publications__item-image" src="./images/publications/p3.jpg" alt="p3">
+								</picture>
 								<div class="publications__item-block">
 									<a class="publications__item-title" href="#">Millennial Testament</a>
-									<p class="publications__item-date">August 19</p>
+									<time class="publications__item-date" datetime="2024-08-19T00:00">August 19</time>
 									<span class="publications__item-line"></span>
 									<p class="publications__item-text">What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
 								</div>
