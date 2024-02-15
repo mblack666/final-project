@@ -263,7 +263,7 @@ body {
   transform: translateX(-50%);
   z-index: 2;
 }
-.header > .container::after {
+.header > .container:last-of-type:after {
   content: "";
   width: calc(100% - 40px);
   height: 20px;
@@ -482,15 +482,16 @@ body {
   border: 2px solid rgb(240, 20, 90);
 }
 .header__descriptions {
+  margin: 0 auto;
   align-self: center;
-  margin-top: 60px;
+  margin-top: 90px;
   display: flex;
   gap: 60px;
   max-width: 1360px;
 }
 @media (max-width: 1024px) {
   .header__descriptions {
-    margin-top: 90px;
+    margin-top: 60px;
     flex-direction: column;
     align-self: flex-start;
   }
@@ -501,19 +502,37 @@ body {
   gap: 30px;
   white-space: nowrap;
 }
+@media (max-width: 1440px) {
+  .header__descriptions-menu {
+    padding-left: 60px;
+  }
+}
 @media (max-width: 1024px) {
   .header__descriptions-menu {
-    max-width: calc(100vw - 120px);
+    max-width: 100vw;
+    padding-left: 0px;
     flex-direction: row;
-    overflow: hidden;
+    overflow-x: auto;
     gap: 30px;
   }
 }
 .header__descriptions-menu-item {
+  position: relative;
+  z-index: 10;
   color: rgb(179, 179, 186);
   font-size: 38px;
   font-weight: 700;
   cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .header__descriptions-menu-item:first-child {
+    padding-left: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .header__descriptions-menu-item:last-child {
+    padding-right: 30px;
+  }
 }
 @media (max-width: 768px) {
   .header__descriptions-menu-item {
@@ -527,6 +546,7 @@ body {
   background-clip: text;
 }
 .header__descriptions-line {
+  margin: 0 auto;
   width: 6px;
   height: auto;
   background-color: rgba(255, 255, 255, 0.3);
@@ -534,14 +554,34 @@ body {
 }
 @media (max-width: 1024px) {
   .header__descriptions-line {
-    width: 100%;
+    width: calc(100% - 120px);
     height: 4px;
-    padding-left: 60px;
-    padding-right: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .header__descriptions-line {
+    width: calc(100% - 60px);
   }
 }
 .header__descriptions-items {
   align-self: center;
+}
+@media (max-width: 1440px) {
+  .header__descriptions-items {
+    padding-right: 60px;
+  }
+}
+@media (max-width: 1024px) {
+  .header__descriptions-items {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .header__descriptions-items {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
 }
 .header__descriptions-item {
   display: flex;
